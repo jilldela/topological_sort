@@ -2,7 +2,6 @@ require_relative 'graph'
 require 'byebug'
 
 # Implementing topological sort using both Khan's and Tarian's algorithms
-
 def topological_sort(vertices)
   in_edge_counts = {}
   sorted = []
